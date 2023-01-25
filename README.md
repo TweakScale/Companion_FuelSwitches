@@ -23,7 +23,8 @@ Adds (up to date) TweakScale /L support for Fuel Switches, allowing parts using 
 
 Currently supports:
 
-* [WIP](https://forum.kerbalspaceprogram.com/index.php?/topic/xxxxxx-*)
+* [Modular Fuel Tanks](https://forum.kerbalspaceprogram.com/index.php?/topic/58235-*/)
+* [Real Fuels](https://forum.kerbalspaceprogram.com/index.php?/topic/58236-*/)
 
 
 ## Installation
@@ -74,3 +75,10 @@ There's no upstream, I'm (g)ROOT. :)
 	+ [SpaceDock](https://spacedock.info/mod/127/TweakScale)
 	+ [Homepage](http://ksp.lisias.net/add-ons/TweakScale) on L Aerospace
 	+ [GitHub](https://github.com/net-lisias-ksp/TweakScale).
+* Modular Fuel Tanks ([taniwha](https://forum.kerbalspaceprogram.com/index.php?/profile/57176-taniwha/))
+	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/58235-*)
+	+ [GitHub](https://github.com/NathanKell/ModularFuelSystem).
+		- [Latest Release](http://taniwha.org/~bill/ModularFuelTanks_v5.13.1.zip)
+* Real Fuels ([NathanKell](https://forum.kerbalspaceprogram.com/index.php?/profile/75006-nathankell/))
+	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/58236-*)
+	+ [GitHub](https://github.com/NathanKell/ModularFuelSystem).
