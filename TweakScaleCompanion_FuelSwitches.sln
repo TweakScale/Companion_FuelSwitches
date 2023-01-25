@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.810.25
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweakScaleCompanion_FuelSwitches", "Source\TweakScaleCompanion_FuelSwitches\TweakScaleCompanion_FuelSwitches.csproj", "{755F6DB0-C460-48F7-AD70-6B9C4C43909A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweakScalerModuleFuelTanks", "Source\TweakScalerModuleFuelTanks\TweakScalerModuleFuelTanks.csproj", "{230B2D83-9502-4847-A19B-563D7C1215F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweakScalerModuleFuelTanksRescalable", "Source\TweakScalerModuleFuelTanksRescalable\TweakScalerModuleFuelTanksRescalable.csproj", "{AB26E184-0965-47A5-9CFC-18FD7D471D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweakScalerRealFuelsRescalable", "Source\TweakScalerRealFuelsRescalable\TweakScalerRealFuelsRescalable.csproj", "{99F3ABE4-B32C-4895-8699-1EE4FA5A8C97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{755F6DB0-C460-48F7-AD70-6B9C4C43909A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755F6DB0-C460-48F7-AD70-6B9C4C43909A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755F6DB0-C460-48F7-AD70-6B9C4C43909A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230B2D83-9502-4847-A19B-563D7C1215F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230B2D83-9502-4847-A19B-563D7C1215F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230B2D83-9502-4847-A19B-563D7C1215F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230B2D83-9502-4847-A19B-563D7C1215F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB26E184-0965-47A5-9CFC-18FD7D471D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB26E184-0965-47A5-9CFC-18FD7D471D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB26E184-0965-47A5-9CFC-18FD7D471D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB26E184-0965-47A5-9CFC-18FD7D471D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F3ABE4-B32C-4895-8699-1EE4FA5A8C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F3ABE4-B32C-4895-8699-1EE4FA5A8C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F3ABE4-B32C-4895-8699-1EE4FA5A8C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F3ABE4-B32C-4895-8699-1EE4FA5A8C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{755F6DB0-C460-48F7-AD70-6B9C4C43909A}</ProjectGuid>
+    <ProjectGuid>{230B2D83-9502-4847-A19B-563D7C1215F4}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>TweakScaleCompanion_FuelSwitches</RootNamespace>
-    <AssemblyName>TweakScaleCompanion_FuelSwitches</AssemblyName>
+    <RootNamespace>TweakScalerModuleFuelTanks</RootNamespace>
+    <AssemblyName>TweakScalerModuleFuelTanks</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <BaseIntermediateOutputPath>..\..\obj\TweakScaleCompanion_Frameworks</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>..\..\obj\TweakScalerModuleFuelTanks</BaseIntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,35 +29,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="KSPe.Light.TweakScale">
-      <HintPath>..\..\..\..\..\..\..\LIB\plugins\KSPe.Light.TweakScale.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\..\LIB\managed\1.2.2\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="KSPe.Light.TweakScale">
+      <HintPath>..\..\..\..\..\..\..\LIB\plugins\KSPe.Light.TweakScale.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\..\LIB\managed\1.2.2\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Scale">
+      <HintPath>..\..\..\..\..\..\..\LIB\plugins\Scale.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanityCheck.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="GUI\ShowStopperAlertBox.cs" />
-    <Compile Include="GUI\UnmetRequirementsShowStopperAlertBox.cs" />
-    <Compile Include="Properties\Version.cs">
-      <DependentUpon>Version.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\LegalMamboJambo.cs" />
+    <Compile Include="PartModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Version.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Version.cs</LastGenOutput>
-    </None>
+    <ProjectReference Include="..\TweakScaleCompanion_FuelSwitches\TweakScaleCompanion_FuelSwitches.csproj">
+      <Project>{755F6DB0-C460-48F7-AD70-6B9C4C43909A}</Project>
+      <Name>TweakScaleCompanion_FuelSwitches</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
