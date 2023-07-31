@@ -3,18 +3,18 @@
 Adds (up to date) TweakScale /L support for Fuel Switches, allowing parts using them to be scaled if patches are applied.
 
 
-* [Source](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches)
-	+ [Issue Tracker](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches/issues)
+* [Source](https://github.com/TweakScale/Companion_FuelSwitches)
+	+ [Issue Tracker](https://github.com/TweakScale/Companion_FuelSwitches/issues)
 * Documentation
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/192216-tweakscale-companion-program/)
-	+ [Project's README](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches/blob/master/README.md)
-	+ [Install Instructions](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches/blob/master/INSTALL.md)
+	+ [Project's README](https://github.com/TweakScale/Companion_FuelSwitches/blob/master/README.md)
+	+ [Install Instructions](https://github.com/TweakScale/Companion_FuelSwitches/blob/master/INSTALL.md)
 	+ [Known Issues](./KNOWN_ISSUES.md)
 	+ [Change Log](./CHANGE_LOG.md)
 * Official Distribution Sites:
-	+ [Source and Binaries](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches) on GitHub.
-	+ [Latest Release](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches/releases)
-		- [Binaries](https://github.com/net-lisias-ksp/TweakScaleCompanion_FuelSwitches/Archive)
+	+ [Source and Binaries](https://github.com/TweakScale/Companion_FuelSwitches) on GitHub.
+	+ [Latest Release](https://github.com/TweakScale/Companion_FuelSwitches/releases)
+		- [Binaries](https://github.com/TweakScale/Companion_FuelSwitches/Archive)
 
 
 ## Description
@@ -70,11 +70,12 @@ There's no upstream, I'm (g)ROOT. :)
 ## Refences
 
 * TweakScale /L ([LisiasT](https://forum.kerbalspaceprogram.com/index.php?/profile/187168-lisias/))
-	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*)
+	+ [Homepage](http://ksp.lisias.net/add-ons/TweakScale) on L Aerospace
+	+ [Reddit](https://www.reddit.com/r/TweakScale/)
+	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/)
 	+ [CurseForge](https://kerbal.curseforge.com/projects/tweakscale)
 	+ [SpaceDock](https://spacedock.info/mod/127/TweakScale)
-	+ [Homepage](http://ksp.lisias.net/add-ons/TweakScale) on L Aerospace
-	+ [GitHub](https://github.com/net-lisias-ksp/TweakScale).
+	+ [GitHub](https://github.com/TweakScale/TweakScale)
 * Modular Fuel Tanks ([taniwha](https://forum.kerbalspaceprogram.com/index.php?/profile/57176-taniwha/))
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/58235-*)
 	+ [GitHub](https://github.com/NathanKell/ModularFuelSystem).
