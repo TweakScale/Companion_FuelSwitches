@@ -23,8 +23,8 @@ Adds (up to date) TweakScale /L support for Fuel Switches, allowing parts using 
 
 Currently supports:
 
-* [Modular Fuel Tanks](https://forum.kerbalspaceprogram.com/index.php?/topic/58235-*/)
-* [Real Fuels](https://forum.kerbalspaceprogram.com/index.php?/topic/58236-*/)
+* Modular Fuel Tanks
+* Real Fuels
 
 
 ## Installation
